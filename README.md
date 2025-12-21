@@ -1,10 +1,8 @@
-**🔍 Duplicate Remover Tool - ML-Powered Data Cleaning Platform
-**
-**📋 Table of Contents
-**
+**🔍 Duplicate Remover Tool - ML-Powered Data Cleaning Platform**
+
+**📋 Table of Contents**
 * Overview
 * Key Features
-* Demo & Screenshots
 * Installation
 * Quick Start Guide
 * Detailed Usage
@@ -22,7 +20,6 @@
 
 **🎯 Overview**
 The Duplicate Remover Tool is a sophisticated data cleaning solution designed for data scientists, analysts, researchers, and businesses dealing with data quality issues. Unlike simple exact-match duplicate removers, this tool uses machine learning to detect:
-
 * Exact Duplicates: Identical rows across all columns
 * Near Duplicates: Rows with minor variations in numeric values
 * Text Duplicates: Similar text entries with different formatting or minor spelling differences
@@ -66,51 +63,12 @@ Streamlit Application
 * Detailed Reports: Comprehensive text reports with duplicate statistics
 * Real-time Metrics: Live counters showing rows processed and duplicates found
 
-⚙️ Flexible Configuration
-
+**⚙️ Flexible Configuration**
 * Similarity Threshold: Adjust from 0.5 (loose) to 1.0 (strict) matching
 * Cluster Count: Configure number of clusters for K-means (2-20)
 * Column Selection: Choose specific text or numeric columns for analysis
 * Method Selection: Pick your preferred detection algorithm or compare all
 * Batch Processing: Handle datasets from 10 to 100,000+ rows
-
-
-🎬 Demo & Screenshots
-Main Interface (Flask)
-┌────────────────────────────────────────────────────────┐
-│  🔍 Duplicate Remover Tool                             │
-│  Find and remove duplicate data using ML techniques    │
-├────────────────────────────────────────────────────────┤
-│  [Upload Data] [Analyze] [Clean Data] [Visualize]      │
-├────────────────────────────────────────────────────────┤
-│                                                        │
-│  📤 Upload Your Dataset                                │
-│  ┌──────────────────────────────────────────┐          │
-│  │  Drop your CSV file here                 │          │
-│  │  or click to browse                      │          │
-│  │  ☁️ [Upload Icon]                        │          │
-│  └──────────────────────────────────────────┘          │
-│                                                        │
-│  Sample Data: [Load Sample Data]                       │
-│                                                        │
-└────────────────────────────────────────────────────────┘
-
-Analysis Results
-┌────────────────────────────────────────────────────────┐
-│  📊 Analysis Results                                   │
-├─────────┬─────────┬─────────┬─────────┬─────────┐      │
-│ Exact   │ Text    │ K-means │ KNN     │ Class.  │      │
-│ Dups    │ Dups    │ Dups    │ Dups    │ Dups    │      │
-│   3     │   5     │   8     │   6     │   7     │      │
-└─────────┴─────────┴─────────┴─────────┴─────────┘      │
-│                                                        │
-│  📝 Detailed Report                                    │
-│  ════════════════════════════════                      │
-│  Total Rows: 1000                                      │
-│  Total Duplicate Groups: 29                            │
-│  Recommendation: Use K-means method                    │
-└────────────────────────────────────────────────────────┘
-
 
 **💿 Installation**
 Prerequisites
