@@ -1,6 +1,6 @@
 # Data Duplicate Remover Tool
 
-**# Features**
+# Features
 
 The Duplicate Remover Tool provides an extensive set of advanced functionalities:
 
@@ -41,7 +41,7 @@ Support for ngrok public URLs for cloud execution
 
 ---
 
-**# Project Structure**
+# Project Structure
 The repository contains the following core components
 
 **duplicate_remover_core.py**
@@ -84,7 +84,7 @@ Useful for sharing your app from Google Colab or local machine
 
 ---
 
-**# Installation**
+# Installation
 
 Install all dependencies using the following command inside your environment
 
@@ -99,7 +99,7 @@ Tunneling using ngrok
 
 ---
 
-**# How to Run the Streamlit App**
+# How to Run the Streamlit App
 
 Run the following command
 
@@ -111,7 +111,7 @@ or at an ngrok URL when used in Google Colab
 
 ---
 
-**# How to Run the Flask App**
+# How to Run the Flask App
 
 Run the Flask backend using
 
@@ -124,7 +124,7 @@ or a public ngrok URL
 
 ---
 
-**# Running With ngrok (Optional)**
+# Running With ngrok (Optional)
 
 You must first set your ngrok auth token which is available at
 https ngrok.com
@@ -138,7 +138,7 @@ This is especially useful when running inside Google Colab
 
 ---
 
-**# How Duplicate Detection Works**
+# How Duplicate Detection Works
 
 **Text Duplicate Detection**
 Character and word based handcrafted features
@@ -163,7 +163,7 @@ Grouping of high confidence duplicate pairs
 
 ---
 
-**# Visualizations**
+# Visualizations
 
 The tool provides multiple visual analytics including
 Cluster scatter plots
@@ -175,7 +175,7 @@ Base64 encoded images for integration inside web interfaces
 
 ---
 
-**# Cleaning Options**
+# Cleaning Options
 
 Choose any method to clean
 K-means
@@ -186,7 +186,7 @@ Export cleaned dataset as CSV
 
 ---
 
-**# Sample Data**
+# Sample Data
 
 The project includes built-in sample data for quick testing
 Name
@@ -197,7 +197,7 @@ Department
 
 ---
 
-**# Technologies Used**
+# Technologies Used
 Python
 Streamlit
 Flask
@@ -217,7 +217,7 @@ Ngrok
 
 ---
 
-**# Use Cases**
+# Use Cases
 
 This tool can be used for
 
@@ -233,7 +233,7 @@ Data preprocessing automation
 
 ---
 
-**# Advantages**
+# Advantages
 
 Supports both text and numeric data
 Multiple ML methods for comparison
@@ -247,7 +247,7 @@ No complex setup required
 
 ---
 
-**# Future Enhancements (Optional Vision)**
+# Future Enhancements
 
 Deep learning based text similarity for larger datasets
 Support for Excel, JSON input formats
@@ -257,14 +257,8 @@ Cloud deployment template (Docker, Render, AWS)
 
 ---
 
-**# License**
-
-You may include your license details here such as MIT License or Apache License depending on your preference.
-
----
 
 **# Author**
 
 This project was created to provide a complete end-to-end solution for duplicate detection and dataset cleaning using machine learning, clustering and interactive visualization.
-
 ---
