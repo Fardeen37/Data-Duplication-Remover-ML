@@ -258,7 +258,8 @@ Cloud deployment template (Docker, Render, AWS)
 ---
 
 
-**# Author**
+# Author
 
 This project was created to provide a complete end-to-end solution for duplicate detection and dataset cleaning using machine learning, clustering and interactive visualization.
+
 ---
