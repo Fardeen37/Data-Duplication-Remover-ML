@@ -1,4 +1,4 @@
-**# Data Duplicate Remover Tool**
+# Data Duplicate Remover Tool
 
 **# Features**
 
