@@ -124,7 +124,7 @@ or a public ngrok URL
 
 ---
 
-# Running With ngrok (Optional)
+# Running With ngrok
 
 You must first set your ngrok auth token which is available at
 https ngrok.com
